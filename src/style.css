@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px auto;
+    height:300px;
+    width: 350px;
+    border: 1px solid snow;
+    background-color: cornsilk;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.h1{
+    color: orangered
+}
+
+.button1, .button2{
+   background-color: linen;
+   color: black;
+   font-size: medium;
+    font-weight: bold;
+   padding: 10px;
+   margin:20px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}  
+
+.button1, .button2{
+    cursor: pointer;
+
+}
+
+
